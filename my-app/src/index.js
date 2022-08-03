@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // import './style.css';
 
+
+// TheUseState() cant be hooked in class components, only into function components
 class Counter extends React.Component {
   state = {
     counter: 0
@@ -24,6 +26,8 @@ ReactDOM.render(
 );
 
 // functional component and hooks!
+// As you can see, compared to the class component, the code is much shorter and easier to read and understand. That was one of the reasons why the React team created Hooks.
+
 
 // import React, { useState } from 'react';
 // import ReactDOM from 'react-dom';
